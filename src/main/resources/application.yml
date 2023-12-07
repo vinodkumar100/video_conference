@@ -1,0 +1,5 @@
+server:
+  port: 8080
+google:
+  translation:
+   apiKey: AIzaSyBQEBzUjn3G1O9vbxILQkPqk2B6VzH5vuU

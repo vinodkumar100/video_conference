@@ -1,0 +1,55 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# dependencies
+/video-call/node_modules
+/video-call/.pnp
+/video-call/.pnp.js
+
+# testing
+/video-call/coverage
+
+# production
+/video-call/build
+
+# misc
+/video-call/.DS_Store
+/video-call/.env.local
+/video-call/.env.development.local
+/video-call/.env.test.local
+/video-call/.env.production.local
+
+/video-call/npm-debug.log*
+/video-call/yarn-debug.log*
+/video-call/yarn-error.log*
