@@ -18,6 +18,7 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
+import { hostUrl } from "./endpoint";
 
 
 function a11yProps(index) {
@@ -76,8 +77,8 @@ function CallView(props) {
       }, []);
 
 
-    const translateText = async (text, targetLanguage) => {
-        const hostUrl=window.location.origin;
+    const translateText = async (text, targetLanguage) => {        
+        // const hostUrl=window.location.origin;
         const url = `${hostUrl}/api/translate/translate`;
         const response = await axios.post(
             url,
