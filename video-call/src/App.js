@@ -23,7 +23,7 @@ function App() {
     setIsCallHosted(true);
   }
   return (
-    <div className="App">
+    <div className="App test">
       {
         isCallHosted ? <CallView hostRoomId={hostRoomId} setIsCallHosted={setIsCallHosted} /> : <CreateRoom setIsCallHosted={onCallHost} />
       }
