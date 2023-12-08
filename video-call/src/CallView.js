@@ -124,7 +124,7 @@ function CallView(props) {
             <div style={{ display: 'flex', width: '100vw', height: '100vh' }}>
                 <AgoraUIKit styleProps={{}}
                     rtcProps={{
-                        appId: '2e97fd6ad99d4aae9c4cc28f04772392',
+                        appId: 'b6507a18c8b347239dd00d217624c8b2',
                         channel: 'channel1',
                         token: token.agoraToken,
                         role: isHost ? 'host' : 'audience',
